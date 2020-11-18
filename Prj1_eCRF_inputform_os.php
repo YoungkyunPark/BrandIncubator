@@ -8,6 +8,8 @@ if(!isset($_SESSION['collID']) || !isset($_SESSION['collName'])) {
 $user_id = $_SESSION['collID'];
 $user_name = $_SESSION['collName'];
 $user_email = $_SESSION['collEmail'];
+
+define("GIT_VSCODE_TEST",1);
 ?>
 
 <html lang="en">
