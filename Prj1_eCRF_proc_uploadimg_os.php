@@ -8,6 +8,8 @@ if(!isset($_SESSION['collID']) || !isset($_SESSION['collName'])) {
 	exit;
 }
 
+define('testtest', 123);
+
 define('SPINE', "1");
 define('RTHIP', "2");
 define('LTHIP', "3");
